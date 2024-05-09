@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    padding: 35px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav i {
+    display: none !important;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 20px;
+}
+
+.menuesas {
+    display: none;
+}
+.menuesas ul{
+    padding: 10px;
+}
+.menuesas ul li{
+    padding: 10px;
+}
+.menuesas ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    width: 100%;
+    background-image: url(https://www.expargo.com/4.23f498d139b33e1b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 300px;
+    color: white;
+    font-size: 50px;
+}
+
+.main h1 {
+    margin: 20px;
+}
+
+.main2 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main3 {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main4 {
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 2mm;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+.main4 i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main5 {
+    padding: 60px 60px 0px 60px;
+    text-align: center;
+}
+
+.main5 h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.main5 p {
+    font-size: 20px;
+}
+
+.about2 {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about4 {
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 2mm;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+.about4 i {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.m1 {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.m2 {
+    width: 15%;
+    margin: 30px;
+    height: 150px;
+    border-radius: 3mm;
+    box-shadow: 0px 0px 10px 10px black;
+    text-align: center;
+}
+
+.m2 img {
+    width: 100%;
+    border-radius: 3mm;
+    height: 100%;
+}
+
+.s2 {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s3 {
+    border: 1px solid black;
+    border-radius: 2mm;
+    padding: 70px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+.s3 i {
+    font-size: 40px;
+}
+
+.main7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    justify-content: center;
+}
+
+.main7 input {
+    width: 60%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.button-div button {
+    /* width: 3000px;
+    height: 50px; */padding: 15px 200px;
+}
+.button-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+
+footer {
+    background-color: black;
+    padding: 16px 200px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .main {
+        font-size: 30px;
+        padding: 130px 50px 60px 50px;
+    }
+
+    .main4 {
+        width: 100%;
+    }
+
+    .main5 {
+        padding: 20px;
+    }
+
+    .main5 p {
+        font-size: 16px;
+    }
+
+    .about4 {
+        width: 100%;
+    }
+
+    .m1 {
+        padding: 20px;
+    }
+
+    .m2 {
+        width: 30%;
+    }
+
+    .s2 {
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+    .s3 {
+        padding: 30px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .main7 {
+        margin: 20px;
+    }
+
+    .main7 input {
+        width: 90%;
+    }
+
+    .main7 button {
+        width: 90%;
+    }
+
+    footer {
+        padding: 20px 50px;
+    }
+
+    nav h2 {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav i {
+        display: block !important;
+    }
+    .menuesas{
+        display: block;
+        padding: 120px 100px 20px 50px;
+    }
+    /* .menuesas ul li{
+        list-style:none;
+    } */
+}
+.error-message {
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+.success-message {
+    color: green;
+    font-weight: bold;
+    display: none;
+}
+/* CSS animasyonlarını tanımla */
+.animate {
+    animation: fadeInUp 2s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
